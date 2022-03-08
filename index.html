@@ -17,6 +17,10 @@
     <title>CockTailDbProject</title>
   </head>
   <body>
+    <!-- loader: -->
+    <div class="loader" id="loader">
+      <img src="loader.svg" alt="" />
+    </div>
     <header>
       <h1 class="text-center">Search Your favourite Juice & vodka</h1>
     </header>
@@ -42,7 +46,9 @@
       </div>
 
       <!-- for grid cards: -->
-      <div class="row row-cols-1 row-cols-md-3 g-4" id="display-window"></div>
+      <div id="show-hide">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="display-window"></div>
+      </div>
     </main>
 
     <!-- for js bootstrap cdn: -->
